@@ -158,6 +158,9 @@ footer {
 			background-color: #333;
 			color: #fff;
 		}
+		&:after {
+			outline: none;
+		}
 	}
 }
 
@@ -173,6 +176,23 @@ footer {
 .modal {
 	&-title {
 		font-weight: 700;
+	}
+}
+
+@media (max-width: 736px) {
+	.work {
+		&-box {
+			text-align: center;
+		}
+		&-img {
+			width: 100%;
+			margin-bottom: 1rem;
+		}
+	}
+	.modal {
+		&-title {
+			text-align: center;
+		}
 	}
 }
 

@@ -152,6 +152,9 @@ footer strong {
   background-color: #333;
   color: #fff;
 }
+.work-links:after {
+  outline: none;
+}
 .close {
   background-color: transparent;
   border: none;
@@ -162,6 +165,18 @@ footer strong {
 }
 .modal-title {
   font-weight: 700;
+}
+@media (max-width: 736px) {
+  .work-box {
+    text-align: center;
+  }
+  .work-img {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .modal-title {
+    text-align: center;
+  }
 }
 @media (max-width: 576px) {
   .portfolio {
