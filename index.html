@@ -15,15 +15,15 @@
     <header>
       <div class="container header-container">
         <div class="row header-row">
-          <h1 class="header-title">Александр Харманский</h1>
+          <h1 class="header-title">Davilex</h1>
           <div class="header-line"></div>
           <p class="header-desc">Вёрстка на HTML и CSS<br>Разработка сайтов под ключ</p>
         </div>
-          <a href="#" class="header-down"><i class="icon-down"></i></a>
+          <a href="#portfolio" class="header-down slowly"><i class="icon-down"></i></a>
       </div>
     </header>
 
-    <section class="portfolio">
+    <section class="portfolio" id="portfolio">
       <div class="container">
           <h1 class="portfolio-title">Портфолио</h1>
         <div class="row">
@@ -156,5 +156,15 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".slowly").on("click", function (event) {
+          event.preventDefault();
+          var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+          $('body,html').animate({scrollTop: top}, 800);
+        });
+      });
+    </script>
   </body>
 </html>
