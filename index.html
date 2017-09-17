@@ -12,10 +12,10 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <header class="parallax-window" data-parallax="scroll" data-image-src="img/main-bg.jpg">
       <div class="container header-container">
         <div class="row header-row">
-          <h1 class="header-title">Davilex</h1>
+          <h1 class="header-title">Александр Харманский</h1>
           <div class="header-line"></div>
           <p class="header-desc">Вёрстка на HTML и CSS<br>Разработка сайтов под ключ</p>
         </div>
@@ -156,6 +156,8 @@
     
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/parallax.min.js"></script>
     <script>
       $(document).ready(function(){
         $(".slowly").on("click", function (event) {

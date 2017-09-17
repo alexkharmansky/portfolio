@@ -3,7 +3,6 @@ body {
 }
 header {
   height: 100vh;
-  background: url(../img/main-bg.jpg) no-repeat center center;
   background-size: cover;
   display: table;
   width: 100%;
@@ -62,7 +61,7 @@ html {
   border: 1px solid #fff;
 }
 .portfolio {
-  padding: 10rem 0px;
+  padding: 18rem 0px;
 }
 .portfolio-title {
   margin-top: -5rem;
@@ -141,7 +140,7 @@ footer strong {
 .work-links {
   border: 1px solid #333;
   padding: 1rem 1rem 1rem 1rem;
-  border-radius: 50px;
+  border-radius: 5px;
   color: #333;
   transition: all 0.2s;
   outline: none;
