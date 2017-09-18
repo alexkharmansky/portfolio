@@ -60,38 +60,59 @@ html {
   color: #fff;
   border: 1px solid #fff;
 }
+.icon-down {
+  animation-duration: 5s;
+}
 .portfolio {
-  padding: 18rem 0px;
+  padding: 10rem 0px;
+  /* 	&-link {
+	margin-top: 2rem;
+	margin-bottom: 5rem;
+	display: inline-block;
+	color: #333;
+	border-bottom: 1px solid transparent;
+	&:hover {
+		text-decoration: none;
+		color: #333;
+		border-bottom: 1px #333 dotted;
+	}
+} */
 }
 .portfolio-title {
-  margin-top: -5rem;
-  margin-bottom: 8rem;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
   text-transform: uppercase;
   font-weight: 700;
   font-size: 3rem;
   text-align: center;
 }
+.portfolio-desc {
+  margin-bottom: 3rem;
+  text-align: center;
+}
 .portfolio-img {
   width: 100%;
   max-width: 360px;
+  margin-bottom: 3rem;
+}
+.portfolio-img:hover {
   box-shadow: 0px 4px 29px 0px rgba(87, 92, 97, 0.54);
 }
-.portfolio-link {
-  margin-top: 2rem;
-  display: inline-block;
-  color: #333;
-  border-bottom: 1px solid transparent;
+.portfolio-down {
+  color: #000;
+  line-height: 50px;
+  outline: none;
+  transition: all 0.2s;
+  font-size: 2rem;
 }
-.portfolio-link:hover {
+.portfolio-down:hover {
   text-decoration: none;
-  color: #333;
-  border-bottom: 1px #333 dotted;
+  color: #000;
 }
 footer {
   text-align: center;
-  background-color: #646464;
   color: #fff;
-  padding: 3rem 0px;
+  padding: 5rem 0px;
 }
 footer strong {
   display: 300px;
@@ -140,7 +161,7 @@ footer strong {
 .work-links {
   border: 1px solid #333;
   padding: 1rem 1rem 1rem 1rem;
-  border-radius: 5px;
+  border-radius: 50px;
   color: #333;
   transition: all 0.2s;
   outline: none;
@@ -191,4 +212,11 @@ footer strong {
   .footer-text {
     margin-top: 1rem;
   }
+}
+a:active,
+a:focus {
+  outline: none;
+}
+a::-moz-focus-inner {
+  border: 0;
 }
